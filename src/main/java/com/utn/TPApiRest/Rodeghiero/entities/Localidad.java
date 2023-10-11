@@ -13,7 +13,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "Localidad")
+@Table(name = "localidad")
 
 public class Localidad extends Base{
     @Column(name = "denominacion")
